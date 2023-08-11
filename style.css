@@ -84,3 +84,142 @@ form button{
     border-radius: 5px;
     
 }
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background: #39297b;
+        color: #fff;
+    }
+
+    form{
+       
+
+       width: 95%;
+       max-width: 600px;
+       margin: auto;
+       height: 55px ;
+       background: #434989;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 8px;
+    }
+
+
+    form input{
+      
+        height: 100%;
+        border: 0;
+        outline: 1;
+        background: transparent;
+        color: #fff;
+        font-size: 18px;
+        outline: 0;
+        padding: 0 10px;
+       
+    }
+
+    form button{
+        padding: 0 40px;
+        height: 100%;
+        background: #ff3929;
+        color: #fff;
+        font-size: 18px;
+        border: 0;
+        outline: 0;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        cursor: pointer;
+    }
+
+    #search-result{
+        width: 80%;
+        margin: 100px auto 50px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+    }
+    
+   
+  }
+
+
+  
+@media only screen and (max-width: 768px) {
+    body {
+        background: #39297b;
+        color: #fff;
+    }
+
+    h1{
+        text-align: center;
+        margin: 100px auto 50px;
+        font-weight: 600;
+        font-size: 3rem
+    }
+
+    form{
+       
+
+       width: 95%;
+       max-width: 600px;
+       margin: auto;
+       height: 80px ;
+       background: #434989;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 8px;
+    }
+
+
+    form input{
+      
+        height: 100%;
+        border: 0;
+        outline: 1;
+        background: transparent;
+        color: #fff;
+        font-size: 32px;
+        outline: 0;
+        padding: 0 10px;
+       
+    }
+
+    form button{
+        padding: 0 40px;
+        height: 100%;
+        background: #ff3929;
+        color: #fff;
+        font-size: 32px;
+        border: 0;
+        outline: 0;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        cursor: pointer;
+    }
+
+    #search-result{
+        width: 80%;
+        margin: 100px auto 50px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+    }
+    
+
+    ::placeholder{
+        color: #fff;
+        font-size: 32px;
+    }
+   
+
+    #show-more-btn{
+        
+
+        padding: 20px 40px;
+        font-size: 2rem;
+    
+    }
+  }

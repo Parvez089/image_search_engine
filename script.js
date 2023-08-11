@@ -47,3 +47,5 @@ showMoreBtn.addEventListener("click", () => {
     page++;
     searchImage();
 })
+
+
